@@ -108,7 +108,7 @@
 				<key>filename</key>
 				<string>before</string>
 				<key>filetext</key>
-				<string>{var:BEFORE}</string>
+				<string>{var:before}</string>
 				<key>ignoredynamicplaceholders</key>
 				<false/>
 				<key>relativepathmode</key>
@@ -197,12 +197,12 @@ code --diff "$BEFORE" "$AFTER"</string>
 				<false/>
 				<key>variables</key>
 				<dict>
-					<key>AFTER</key>
-					<string>{clipboard:0}</string>
-					<key>BEFORE</key>
-					<string>{clipboard:1}</string>
-					<key>FORMAT</key>
+					<key>TYPE</key>
 					<string>{query}</string>
+					<key>after</key>
+					<string>{clipboard:0}</string>
+					<key>before</key>
+					<string>{clipboard:1}</string>
 				</dict>
 			</dict>
 			<key>type</key>
@@ -232,7 +232,7 @@ code --diff "$BEFORE" "$AFTER"</string>
 				<key>filename</key>
 				<string>after</string>
 				<key>filetext</key>
-				<string>{var:AFTER}</string>
+				<string>{var:after}</string>
 				<key>ignoredynamicplaceholders</key>
 				<false/>
 				<key>relativepathmode</key>
@@ -254,8 +254,10 @@ code --diff "$BEFORE" "$AFTER"</string>
 	<dict>
 		<key>21845FBE-D37F-4CD3-AF5A-55E1E9604140</key>
 		<dict>
+			<key>note</key>
+			<string>write {var:after} to temp file</string>
 			<key>xpos</key>
-			<real>380</real>
+			<real>395</real>
 			<key>ypos</key>
 			<real>300</real>
 		</dict>
@@ -269,26 +271,32 @@ code --diff "$BEFORE" "$AFTER"</string>
 		<key>3BAD720E-1A04-4BA1-9585-DA24016F6475</key>
 		<dict>
 			<key>xpos</key>
-			<real>590</real>
+			<real>610</real>
 			<key>ypos</key>
 			<real>240</real>
 		</dict>
 		<key>CA513D19-039D-4FD3-8554-9CC5676DFA73</key>
 		<dict>
+			<key>note</key>
+			<string>write {var:before} to temp file</string>
 			<key>xpos</key>
-			<real>380</real>
+			<real>395</real>
 			<key>ypos</key>
 			<real>130</real>
 		</dict>
 		<key>D6D25A76-ADE8-4CC0-9686-78298EF96321</key>
 		<dict>
+			<key>note</key>
+			<string>run prettier based on type and open vs code diff view on formatted files</string>
 			<key>xpos</key>
-			<real>705</real>
+			<real>720</real>
 			<key>ypos</key>
 			<real>210</real>
 		</dict>
 		<key>DF428E03-6F53-4A29-835C-93D070704CEA</key>
 		<dict>
+			<key>note</key>
+			<string>set variables before {clipboard:0}, after {clipboard:1} and type {query}</string>
 			<key>xpos</key>
 			<real>245</real>
 			<key>ypos</key>
