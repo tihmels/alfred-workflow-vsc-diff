@@ -26,6 +26,18 @@ In my current role as a QA Engineer, I frequently need to compare different vers
 - Automatically formats files with **Prettier** before comparison.
 - Opens the diff in **Visual Studio Code**.
 
+## Workflow Preview
+
+### Alfred Workflow Trigger
+This is how the workflow looks in Alfred when you type `diff` and select the desired file type:
+
+![Alfred Workflow Trigger](images/diff.png)
+
+### Visual Studio Code Diff View
+After selecting the file type, the diff opens in Visual Studio Code for easy side-by-side comparison:
+
+![Visual Studio Code Diff](images/vscode.png)
+
 ## Requirements
 Before using the workflow, ensure the following are installed:
 1. **Visual Studio Code**: [Download VS Code](https://code.visualstudio.com/)
