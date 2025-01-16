@@ -39,6 +39,10 @@ After selecting the file type, the diff opens in Visual Studio Code for easy sid
 
 ![Visual Studio Code Diff](images/vscode.png)
 
+### Workflow Structure
+Here’s an overview of how the workflow is set up in Alfred:  
+![Workflow Overview](images/workflow.png)
+
 ## Requirements
 Before using the workflow, ensure the following are installed:
 1. **Visual Studio Code**: [Download VS Code](https://code.visualstudio.com/)
