@@ -1,5 +1,6 @@
 # VSC Diff
 
+## Background
 In my current role as a QA Engineer, I frequently need to compare different versions of JSON responses, code snippets, or configuration files during testing and debugging. The process often involved creating temporary files, formatting them, and manually opening them in a diff tool—a repetitive and time-consuming task. VSC Diff simplifies this process, making it effortless to compare clipboard items with just a few keystrokes. Whether you’re working with JSON APIs, debugging code, or comparing text, this workflow streamlines your workflow and saves valuable time.
 
 ## Overview
