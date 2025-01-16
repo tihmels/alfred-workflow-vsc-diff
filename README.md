@@ -28,6 +28,7 @@
 Before using the workflow, ensure the following are installed:
 1. **Visual Studio Code**: [Download VS Code](https://code.visualstudio.com/)
 2. **Prettier**: Install globally via npm:
+
    ```
    npm install -g prettier
    ```
@@ -35,6 +36,7 @@ Before using the workflow, ensure the following are installed:
 ## Installation
 1. Download and import the workflow into Alfred.
 2. Ensure the `prettier` and `code` commands are available in your terminal. Test with:
+
    ```
    prettier --version
    code --version
