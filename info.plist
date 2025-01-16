@@ -296,7 +296,7 @@ code --diff "$BEFORE" "$AFTER"</string>
 		<key>DF428E03-6F53-4A29-835C-93D070704CEA</key>
 		<dict>
 			<key>note</key>
-			<string>set variables before {clipboard:0}, after {clipboard:1} and type {query}</string>
+			<string>set variables before {clipboard:1}, after {clipboard:0} and type {query}</string>
 			<key>xpos</key>
 			<real>245</real>
 			<key>ypos</key>
